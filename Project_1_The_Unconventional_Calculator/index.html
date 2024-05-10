@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        #Header{
+            width:100%;
+            height:50px;
+            padding:10px;
+            background-color:blue ;
+            color:white;
+            text-align:center;          
+        }
+        .box{
+            margin:30px auto;
+            width:500px;
+            height:200px;
+            border-width:1x;
+            border-style:solid;
+            border-radius:10px;
+            border-color:black;
+        }
+        .input{
+            margin:50px auto;
+            width:fit-content;
+        }
+        button{
+            margin:10px;  
+            padding:7px;
+            border-radius:4px;
+            background:blue;
+            color:white;
+            width: 5vw;
+        }
+        #add{
+            margin:10px;  
+            padding:7px;
+            border-radius:4px;
+            background:blue;
+            color:white;
+            width: 5vw;
+        }
+      label{
+          display: inline-block;
+          width:30px;
+          font-size:13px;
+        }
+        .output1,.output2{
+            position:relative;
+            top:30%;
+            left:30%;
+            padding:5px;
+          
+        }
+    </style>
+    <script src="App.js" defer>
+    </script>
+</head>
+<body>
+   
+    <div id="Header">
+        <H1>The Unconventional Calculator</H1> 
+    </div>
+    <div class="box">
+        <div class="input">
+            <input type="Number" id="number"/> 
+        </div>
+        <div class="input">
+        <input type='button' id="add" value="+"/>
+        <button type='button' id="minus">-</button>
+        <button type='button' id="multi">*</button>
+        <button type='button' id="divide">/</button>
+        </div>
+    </div>  
+    <div class="box">     
+            <div class="output1">
+                <input type="text" id="d_result" placeholder="0"/>
+            </div>
+            <div class="output2">
+             <label>Result:</label>
+             <input type="text" id="c_result"/>
+            </div>     
+    </div>  
+</body>
+</html>
