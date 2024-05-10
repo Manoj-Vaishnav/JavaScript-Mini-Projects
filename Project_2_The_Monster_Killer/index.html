@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Monster Killer</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="asset\Vendor.js" defer></script>
+    <script src="asset\App.js" defer></script>
+</head>
+<body>
+    <div id="main_box">
+        <div id="box1">
+          <h6>MONSTER HEALTH</h6>
+          <progress id="m_health" max="100" value="50">50%</progress>
+          <h6>PLAYER HEALTH
+            <span id="bonus_life">1</span>
+          </h6>
+          <progress id="p_health" max="100" value="50">50%</progress>
+          </div>
+        <div id="box2">
+            <input type="button" id="attack" value="ATTACK"/>
+            <input type="button" id="s_attack" value="STRONG ATTACK"/>
+            <input type="button" id="heal" value="HEAL"/>
+            <input type="button" id="detail" value="SHOW LOG"/>
+        </div>
+    </div>
+    
+</body>
+</html>

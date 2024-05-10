@@ -1,0 +1,82 @@
+body{
+    background:rgb(38, 37, 37);
+}
+html{
+    font-family: sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
+}
+h6{
+    text-align: center;
+    margin:3px;
+    padding:1px;
+}
+#bonus_life{
+    font-weight: bold;
+    color: white;
+    background: #ff0062;
+    border: 1px solid #ff0062;
+    padding: 0.15rem 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 0.5rem;
+
+}
+#main_box{
+    width:30vw;
+    height:30vh;
+    margin:auto;
+    padding:10px;
+}
+#m_health{
+    width:100%;
+    height:20px;
+    background-color: purple;
+    margin:6px -1px;
+    padding:1px;
+    border: 1px solid;
+    border-radius:2px;
+    box-sizing: border-box;
+}
+#p_health{
+    width:100%;
+    height:20px;
+    background-color: purple;
+    margin:6px-1px;
+    padding:1px;
+    border: 1px solid;
+    border-radius:2px;
+}
+#box1{
+    width:25vw;
+    height:15vh;
+    border:2px solid black ;
+    border-radius: 3%;
+    margin:15px 5px;
+    padding:5px;
+    background-color: white;
+    box-sizing: border-box;
+}
+#box2{
+    width:25vw;
+    height:25vh;
+    border:2px solid black ;
+    border-radius: 3%;
+    margin:15px 5px;
+    padding:5px;
+    background-color:white;
+    box-sizing: border-box;
+}
+#attack,#s_attack,#heal,#detail{
+    background-color: rgb(219, 48, 39);
+    border: 1px solid;
+    border-radius:2px;
+    text-align: center;
+    margin:0.8rem 0.3rem;
+    padding:0.5rem 0.5rem;
+    width:22vw;
+    height:30px;
+    display:block;
+}
