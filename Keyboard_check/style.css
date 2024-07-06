@@ -1,0 +1,21 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+    color:white;
+}
+table,td,th{
+    border:1em solid white;
+    color:white;  
+    border-collapse: collapse;
+    width:20em;
+    height: 3em;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-size: larger;
+    text-align: center;
+}
