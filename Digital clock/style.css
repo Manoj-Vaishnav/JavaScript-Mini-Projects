@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    display:flex;
+    justify-content: center;
+    background-color: grey;
+    text-align: center;
+    
+}
+a{
+    border:1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin:5px;
+    padding:5px;
+    color: black;
+    flex-grow: 0.1;
+}
+.main {
+     display: flex;
+     height: 90vh;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;    
+     background-color: rgb(44, 42, 42); 
+}
+#banner{
+   font-family: sans-serif;
+   color:white;
+   line-height: 3;
+}
+#clock{
+   font-size:25px;
+   width:10%;
+   height:5%;
+   background-color: chocolate;
+   border-radius: 5px;
+   text-align:center;
+}
